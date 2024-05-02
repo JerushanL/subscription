@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 10px;
+    margin: 10px;
+    font-family: sans-serif;
+}
+
+.subscription {
+    padding: 10px;
+    margin: 10px auto;
+    width: 60%;
+}
+
+.subscription h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(229, 106, 190);
+    margin-bottom: 10px;
+}
+.subscription__carts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subscription__carts .subscription-cart  {
+    background-color: black;
+    color: white;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.subscription__carts .subscription-cart h2 {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.subscription-cart .features {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.subscription-cart p {
+    padding: 3px;
+}
+
+.features i {
+    padding-right: 5px;
+    font-size: 14px;
+    color: #9f33f5;
+}
+
+ 
+    
